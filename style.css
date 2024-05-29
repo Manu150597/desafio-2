@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif
+}
+
+section {
+
+    margin-top: 44px;
+    margin-left: 76px;
+
+}
+
+a {
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    color: #989D9C;
+    display: inline-block;
+    margin-right: 25px;
+
+
+}
+
+.LOGIN {
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+    border-color: transparent;
+    cursor: pointer;
+
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin: 217px 125px 0 0;
+    position: absolute;
+
+
+}
+
+div {
+
+    margin: 217px 0 0 779px;
+}
+
+h1 {
+
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    text-align: left;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+
+
+}
+
+h2 {
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    text-align: left;
+    width: 448px;
+    height: 71px;
+    color: #515151;
+
+
+
+
+}
+
+p {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: justify;
+    width: 515px;
+    height: 87px;
+    margin-top: 32px;
+
+}
+
+.EXPLORE {
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    border-color: transparent;
+    background: #ADFF00;
+    margin-top: 62px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width:1300px) {
+
+    section {
+        display: none;
+        border: 0;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        margin: 149px 22px 0 14px;
+        position: relative;
+
+    }
+
+    div {
+        margin: 0;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        text-align: left;
+        margin-top: 24px;
+        margin-left: 64px;
+    }
+
+    h2 {
+
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: left;
+        width: 232px;
+        height: 37px;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .EXPLORE {
+
+        width: 239px;
+        height: 64px;
+        border-radius: 20.5px;
+        margin-top: 17px;
+        margin-left: 76px;
+    }
+}
